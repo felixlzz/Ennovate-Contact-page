@@ -7,11 +7,14 @@
 #div1 {
     width:40%;
     float: left;
+    
+
 }
 
 #div2 {
     width:40%;
     float:left;
+    margin-bottom: 25px;
 }
 
 #div3 {
@@ -53,20 +56,24 @@ input, textarea {
     border-radius: 5px;
     background-color: rgb(252, 252, 252);
     outline: none;
-    border: 2px outset rgb(202, 202, 202);
+    box-shadow: 0px 3px 2px rgb(91, 180, 209);
     padding: 1rem auto;
 }
 
 input:focus, textarea:focus {
     border-radius: 5px;
     background-color: rgb(252, 252, 252);
-    box-shadow: 0px 0px 10px darkblue;
-    border: 2px solid rgb(62, 87, 168);
+    box-shadow: 0px 3px 2px rgb(70, 70, 189);
 }
 
 #send {
+    float: right;
+    border-radius: 5px;
     cursor:pointer;
     margin: 1rem 0;
+    transition: ease 0.3s;
+    padding: 10px;
+    border: none;
 }
 
 #send:hover {
