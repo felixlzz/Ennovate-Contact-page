@@ -55,7 +55,7 @@ input, textarea {
     font-family: 'Open Sans', sans-serif;
     border-radius: 5px;
     background-color: rgb(252, 252, 252);
-    outline: none;
+    border: none;
     box-shadow: 0px 3px 2px rgb(91, 180, 209);
     padding: 1rem auto;
 }
@@ -78,4 +78,39 @@ input:focus, textarea:focus {
 
 #send:hover {
     background-color: rgb(62, 87, 168);
+}
+
+@media screen and (max-width: 620px) {
+    form {
+        width: 600px;
+    }
+
+    #div1 {
+        width: 100%;
+        float:none;
+
+    }
+
+    #div2 {
+        width: 100%;
+        float: none;
+    }
+
+    #div3 {
+        width: 100%;
+        float: none;
+    }
+
+    textarea {
+        width: 80%;
+        height: 100px;
+    }
+
+    #send {
+        float: left;
+    }
+
+    input {
+        height: 30px;
+    }
 }
